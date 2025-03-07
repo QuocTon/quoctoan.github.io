@@ -7,17 +7,18 @@
 
 /* Cấu trúc chung của trang */
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f9;
+    background-color: #f7f7f7;
     color: #333;
-    padding: 40px 20px;
+    padding: 20px;
+    font-size: 16px;
 }
 
 /* Header */
 header {
     background-color: #2c3e50;
-    color: #fff;
+    color: white;
     padding: 20px 0;
     border-radius: 8px;
     margin-bottom: 40px;
@@ -27,7 +28,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 20px;
 }
 
 .logo-container {
@@ -62,7 +63,7 @@ header {
 
 /* Section content */
 .content, .projects {
-    background-color: #fff;
+    background-color: white;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -121,5 +122,17 @@ footer {
 
     .header-info h1 {
         font-size: 30px;
+    }
+
+    .content, .projects {
+        padding: 15px;
+    }
+
+    .content h2, .projects h2 {
+        font-size: 24px;
+    }
+
+    .content p, .projects ul {
+        font-size: 16px;
     }
 }
